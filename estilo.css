@@ -1,0 +1,200 @@
+body{
+    margin: 0px;
+}
+
+h1{
+ color:#B18952;
+ font-size: 40px;
+}
+h3{
+    color:#C22121;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    color:#705C45;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+h5{
+    color:#CE853A;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+h2{
+    color:black;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0%;
+}
+h6{
+    color:#C22121;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h7{
+    color:#C22121;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0%;
+}
+
+
+
+#topo{
+    width: 100%;
+    background-color: #C22121;
+    height: 60px;
+    
+}
+.largura-site{
+    width: 900px;
+    height: 50px;
+    margin: auto;/*centraliza na página*/
+}
+#area{
+    width: 900px;
+    margin: auto;
+    background-color: #705C45;
+}
+#logotipo{
+    width: 450px;
+    height: 50px;
+    float: left;
+}
+.imgright{
+    float: right;
+    
+}
+.imghome{
+    float: left;
+    margin-top: 5px;
+    height: 350px;
+
+}
+.imgmoscow{
+    float: right;
+    margin-top: 5px;
+    height: 350px;
+}
+.imgdaiquiri{
+    float: left;
+    margin-top: 10px;
+    height: 300px;
+}
+#menu{
+    width: auto;
+    height: auto;
+    float: right
+}
+#menu a{
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration:none;
+    margin-left: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#menu a:hover{
+
+    text-decoration: underline;
+}
+#drinks{
+    width: 550px;
+    float: right;
+    height: auto;
+    margin-top: 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+
+}
+
+#conteudohome{
+    width: 550px;
+    float: right;
+    height: auto;
+    margin-top: 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+.conteudo{
+    width: 100%;
+    height:auto;
+    float: left;
+    
+}
+#canape{
+    width: 550px;
+    float: left;
+    height: auto;
+    margin-top: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#bebidas{
+    width: 550px;
+    float: right;
+    height: auto;
+    margin-top: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#bebidas2{
+    width: 550px;
+    float: left;
+    height: auto;
+    margin-top: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    font-size: 15px;
+    color:#C22121;
+    text-align: left;
+}
+p{
+    color: rgb(49, 47, 47);
+    font-size: 18px;
+    text-align: justify;
+
+}
+li{
+    margin-bottom: 15px;
+
+}
+ul{
+    color: #C22121;
+    font-size: 16px;
+    list-style-type: square; /*alterar marcador*/
+    list-style-position: inside;/* altera a posição do marcador*/
+}
+input[type=submit]{
+    width: 20%!important;
+    cursor: pointer;  
+    background:#C22121;
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;   
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+}
+textarea{
+    width: 400px;
+    height: 140px;
+    background-color:whitesmoke;
+    border: 1px solid #C22121;
+    resize: none;
+}
+form{
+    color:#C22121;
+    margin-bottom: 50px;
+}
+
